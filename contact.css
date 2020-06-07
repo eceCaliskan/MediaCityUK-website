@@ -1,0 +1,255 @@
+* {
+
+ box-sizing: border-box; /*TO MAKE SURE THAT THE PADDING AND BORDER ARE INCLUDED IN THE TOTAL WIDTH AND HEIGHT OF THE ELEMENTS*/
+
+}
+
+ 
+
+/*IF THE WIDTH IS LESS THAN 768*/
+
+
+
+body {                     /*TO DESIGN THE BODY SECTION*/
+
+background-color: orange;  /*TO SET THE BACKGROUND COLOUR TO ORANGE*/
+
+}
+
+
+
+h1 {                 /*TO DESIGN H1 ELEMENT*/
+
+width: 100%;         /*TO SET THE WIDTH H1 TAKES ON THE PAGE*/ 
+
+font-size: 3em;      /*TO MAKE H1 ELEMENT FONT-SIZE 4EM*/
+
+font-style: oblique; /*TO SET THE FONT-STYLE*/
+
+Text-align: center;  /*TO PUT THE TEXT TO CENTER*/
+
+padding-left: 10px;  /*THE SPACE BETWEEN ITS CONTAINER AND */
+
+color: #001a4d;      /*TO DESIGN THE H1 COLOUR*/
+
+padding-right: 30px; /*THE SPACE BETWEEN RIGHT SIDE AND H1 ELEMENT*/
+
+font-weight: 900;    /*TO MAKE H1 ELEMENT BOLD*/
+
+margin-top: 20px;    /*THE SPACE BETWEEN TOP OF THE CONTAINER AND TEXT*/
+
+}
+
+
+
+h2, h3, h4, h5 {            /*TO DESIGN H2 ELEMENT*/
+
+font-size: 2em;
+
+} 
+
+
+
+ol {                      /*TO DESIGN OL ELEMENT*/
+
+font-size: 30px;          /*SETTING THE FONT SIZE*/
+
+text-align: center;       /*TO PUT THE TEXT ON THE CENTER*/
+
+}
+
+
+
+img {                         /*TO DESIGN IMAGE ELEMENT*/
+
+display: block;               /*TO DISPLAY IMAGE AS BLOCK*/
+
+margin-left: auto;            /*TO SET MARGIN-LEFT AUTO*/
+
+margin-right: auto;           /*TO SET MARGIN-RIGHT AUTO*/
+
+max-width: 100%;              /*MAXIMUM WIDTH OF THE IMAGE USED IN THE WEBSITE*/
+
+height: auto;                 /*TO MAKE THE IMAGE RELATIVE ON THE SCREEN SIZE*/
+
+margin-bottom: 50px;          /*THE SPACE BETWEEN BOTTOM AND THE IMAGE*/
+
+padding: 25px 40px 25px 40px; /*PADDINGS OF THE FRAME OF THE IMAGE*/
+
+border: 2px solid black;      /*DESIGNING THE FRAME OF THE IMAGE*/
+
+background-color: #001a4d;    /*THE COLOUT OF THE FRAME*/
+
+margin-top: 10px;             /*THE SPACE BETWEEN TOP AND IMAGE*/
+
+}
+
+
+
+.button {
+
+width: 100%;                /*TO SET THE WIDTH OF BUTTON CLASS TAKES ON THE PAGE*/
+
+background-color: #004080;  /*TO SET THE BACKGROUND-COLOUR*/ 
+
+color: white;               /*THE COLOUR OF THE TEXT ON THE BUTTONS*/
+
+padding: 25px 39px;         /*THE BUTTON SIZE*/
+
+text-align: center;         /*TO POSITION THE TEXT CENTER OF THE BUTTON*/
+
+text-decoration: none;      /*NOT USING ANY TEXT DECORATION LIKE UNDERLINE*/
+
+font-size: 2em;             /*FONT SIZE OF THE TEXT*/
+
+display: inline-block;      /*DISPLAY BUTTON AS AN INLINE-BLOCK*/
+
+margin: 20px 0px;           /*THE SIZE OF THE BUTTON*/
+
+cursor: pointer;            /*CHOOSING THE CURSOR STYLE*/
+
+position: relative;         /*TO POSITIONE ELEMENT TO ITS NORMAL POSITION*/
+
+}
+
+
+
+.parallax {
+
+width: 100%;         /*TO SET THE WIDTH OF BUTTON CLASS TAKES ON THE PAGE*/
+
+position: relative;  /*TO POSITIONE ELEMENT TO ITS NORMAL POSITION*/
+
+float: left;         /*POSITION THE TEXT ON THE LEFT SIFE OF THE CONTAINER*/
+
+font-size: 2em;      /*SETTING THE FONT-SIZE FOR TEXT*/
+
+padding-left: 10px;  /*THE SPACE ON LEFT SIDE*/
+
+color: black;        /*DESINING THE PARALLAX COLOR*/
+
+height: 0px;         /*TAKING AWAY THE PARALLAX EFFECT*/
+
+}
+
+
+
+p {                     /*TO DESIGN P ELEMENT*/
+
+margin-bottom: 50px;   /*THE SPACE BETWEEN TEXT AREA AND BOTTOM*/
+
+font-size: 2em;        /*THE FONT SIZE OF THE TEXT*/
+
+}
+
+
+
+.main {             /*TO DESIGN MAIN CLASS*/
+
+width: 90%;
+
+margin-left: 0px;  /*SPACE BETWEEN LEFT SIDE OF THE BROWSER AND TEXT AREA*/
+
+float: left;
+
+
+}
+
+
+
+/*IF THE WIDTH IS MORE THAN 768*/
+
+@media only screen and (min-width: 768px) {
+
+
+h1  {
+
+width: 100%;
+
+font-size: 4em;      /*CHANGING THE FONT SIZE OF THE H1 ELEMENT*/
+
+font-weight: 900;    /*TO MAKE H1 ELEMENT BOLD*/
+
+text-align: center;  /*TO POSITION THE TEXT TO CENTER*/
+
+}
+
+
+
+.button {
+
+width: 20%;
+
+font-size: 2em;       /*SETTING THE FONT-SIZE*/
+
+}
+
+
+
+.parallax {                       /*TO DESIGN DIV CLASS PARALLAX*/
+
+width: 100%;                      /*MAKE THE WIDTH OF PARALLAX EFFECT 100%*/
+
+height: 0px;                    /*TO SET THE HEIGHT OF PARALLAX ELEMENTS INTO A SMALLER NUMBER*/
+
+font-size: 2em;                   /*FONT SIZE OF THE TEXT*/
+
+position: relative;      /*TO POSITIONE ELEMENT TO ITS NORMAL POSITION*/
+
+
+}
+
+}
+
+
+
+/*IF THE WIDTH IS MORE THAN 1200*/
+
+
+
+@media screen and (min-width: 1200px) {
+
+
+
+h1  {                 /*DESIGNING THE H1 ELEMENT*/
+
+width: 100%;          /*MAKING THE WIDTH OF H1 ELEMENT ON THE WEBSITE 100%*/
+
+font-size: 5em;       /*CHANGING THE FONT SIZE OF THE H1 ELEMENT*/
+
+padding-left: 50px;   /*THE SPACE BETWEEN LEFT SIDE AND H1 ELEMENT*/
+
+}
+
+
+
+.parallax {            /*DESIGNING THE DIV CLASS PARALLAX*/
+
+width: 100%;           /*MAKING THE WIDTH OF PARALLAX ELEMENT ON THE WEBSITE 100%*/
+
+position: relative;    /*TO POSITIONE ELEMENT TO ITS NORMAL POSITION*/
+
+float: left;           /*POSITION THE TEXT ON THE LEFT SIFE OF THE CONTAINER*/
+
+font-size: 2em;        /*SETTING THE FONT-SIZE*/
+
+padding-left: 10px;    /*THE SPACE BETWEEN LEFT SIDE AND TEXT*/
+
+color: black;          /*DESIGNING THE TEXT COLOUR*/
+
+height: 900px;         /*TO SET THE HEIGHT OF PARALLAX ELEMENTS INTO A BIGGER*/
+
+background-image:url("a copy 2.png"); /*SETTING THE BACKGROUND IMAGE*/
+
+background-attachment: fixed;    /* Create the parallax scrolling effect */
+
+background-position: center;     /*POSITION THE IMAGE TO THE CENTER*/
+
+background-repeat: no-repeat;    /*MAKE THE PICTURE NO-REPEAT*/
+
+background-size: cover;
+
+}
+
+}
+
