@@ -20,7 +20,7 @@ h1 {                  /*TO DESIGN H1 ELEMENT*/
 
 body {                            /*TO DESIGN BODY SECTION*/
 
-  background-image: url(images/indexBackground.png);     /*TO SET PAGE BACKGROUND IMAGE*/
+  background-image: url(indexBackground.png);     /*TO SET PAGE BACKGROUND IMAGE*/
   background-repeat: no-repeat;     /*TO MAKE IT NO-REPEAT, SO WE ONLY HAVE ONE IMAGE ON THE BACKGROUND NOT CONTINUE WITH THE SAME IMAGE WHEN SCREEN SIZE GETS BIGGER*/
   background-size: cover;           /*TO MAKE PICTURE COVER THE WHOLE BACKGROUND*/
   background-position: center;      /*TO SET THE IMAGE CENTER OF THE WEBSITE*/
