@@ -260,7 +260,7 @@ h1 {                   /*DESIGNING THE H1 ELEMENT*/
   padding-left: 10px;    /*THE SPACE BETWEEN LEFT SIDE AND TEXT*/
   color: black;          /*DESIGNING THE TEXT COLOUR*/
   height: 900px;         /*TO SET THE HEIGHT OF PARALLAX ELEMENTS INTO A BIGGER*/
-  background-image:url("background.png"); /*SETTING THE BACKGROUND IMAGE*/
+  background-image:url(background.png); /*SETTING THE BACKGROUND IMAGE*/
   background-attachment: fixed;    /* Create the parallax scrolling effect */
   background-position: center;     /*POSITION THE IMAGE TO THE CENTER*/
   background-repeat: no-repeat;    /*MAKE THE PICTURE NO-REPEAT*/

@@ -20,7 +20,7 @@ h1 {                  /*TO DESIGN H1 ELEMENT*/
 
 body {                            /*TO DESIGN BODY SECTION*/
 
-  background-image: url("indexBackground.png");     /*TO SET PAGE BACKGROUND IMAGE*/
+  background-image: url(indexBackground.png);     /*TO SET PAGE BACKGROUND IMAGE*/
   background-repeat: no-repeat;     /*TO MAKE IT NO-REPEAT, SO WE ONLY HAVE ONE IMAGE ON THE BACKGROUND NOT CONTINUE WITH THE SAME IMAGE WHEN SCREEN SIZE GETS BIGGER*/
   background-size: cover;           /*TO MAKE PICTURE COVER THE WHOLE BACKGROUND*/
   background-position: center;      /*TO SET THE IMAGE CENTER OF THE WEBSITE*/
@@ -163,18 +163,17 @@ h1 {                  /*TO DESIGN H1 ELEMENT*/
   font-weight: 900;    /*TO MAKE H1 ELEMENT BOLD*/
 }
 
-p {
-
-  margin-top: 50px;
-}
-
 h3{
 
   margin-top: 50px;
 }
 
+p{
+  margin-top: 300px;
+}
+
 .main {               /*TO DESIGN DIV CLASS CALLED MAIN*/
- margin-top: 300px;
+  margin-top: 300px;
   width: 90%;         /*SETTING THE WIDTH 85% FOR THE SECREEN*/
   color: black;
 }
